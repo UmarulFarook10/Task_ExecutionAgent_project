@@ -1,0 +1,8 @@
+Set-Content -Path ".gitignore" -Value @"
+.venv/
+tf_env/
+__pycache__/
+*.py[cod]
+*.txt
+.env
+"@
